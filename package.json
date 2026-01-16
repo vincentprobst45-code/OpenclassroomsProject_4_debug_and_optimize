@@ -1,0 +1,24 @@
+{
+  "name": "nina-carducci-dev-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincentprobst45-code/OpenclassroomsProject_4_debug_and_optimize.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vincentprobst45-code/OpenclassroomsProject_4_debug_and_optimize/issues"
+  },
+  "homepage": "https://github.com/vincentprobst45-code/OpenclassroomsProject_4_debug_and_optimize#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "sass": "^1.97.2"
+  }
+}
