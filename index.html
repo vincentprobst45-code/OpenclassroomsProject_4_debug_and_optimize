@@ -20,17 +20,38 @@
 	<meta name="twitter:url" content="https://ninacarducci.fr" />
 
 	<!-- Balisage JSON-LD généré par l'outil d'aide au balisage de données structurées de Google -->
-	<script type="application/ld+json">
-	{
-	  "@context": "http://schema.org",
-	  "@type": "LocalBusiness",
-	  "name": "Nina Carducci",
-	  "image": "http://www.googleusercontent.com/assets/images/nina.png"
-	}
-	</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Nina Carducci",
+  "image": "http://www.googleusercontent.com/assets/images/nina.png",
+  "telephone": "05 56 67 78 89",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "68 avenue Alsace-Lorraine",
+	"addressCountry": "fr",
+    "addressLocality": "Bordeaux",
+    "postalCode": "33200"
+  },
+  "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Wednesday",
+      "Thursday",
+      "Tuesday",
+      "Friday"
+    ],
+    "opens": "10:00",
+    "closes": "19:00"
+  }]
+}
+</script>
 
-	<!-- <link rel="stylesheet" href="./assets/bootstrap-custom.css"> -->
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/bootstrap-custom-min.css">
+	<!-- <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css"> -->
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -41,7 +62,8 @@
 	<!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
 	<!-- <script src="./assets/maugallery.js"></script> -->
 	<!-- <script src="./assets/scripts.js"></script> -->
-	<script src="./assets/scripts_custom.js" defer></script>
+	<!-- <script src="./assets/scripts_custom.js" defer></script> -->
+	<script src="./assets/scripts_custom_min.js" defer></script>
 </head>
 <body itemscope itemtype ="https://schema.org/Photograph">
 <header class="top-header">
@@ -166,7 +188,7 @@
 	<div class="container">
 		<div class="form-container">
 			<h2>Une question ? Une demande de devis ?</h2>
-			<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
+			<p> Si vous avez besoin d'une photographe professionelle sur Bordeaux ou ses alentours, n’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 			<form action="" method="post">
 				<label for="nom">Nom</label>
 				<input type="text" name="nom" id="nom">
@@ -178,6 +200,11 @@
 			</form>
 		</div>
 		<div class="picture right">
+			<div>
+				<p><strong>Adresse :</strong> 68 avenue Alsace-Lorraine, <span itemprop="areaServed">33200 Bordeaux</span>.</p>
+				<p><strong>Téléphone :</strong><span itemprop="telephone"> 05 56 67 78 89</span></p>
+				<p>Ouvert du Lundi au Vendredi de 10h à 19h</p>
+			</div>
 			<img src="./assets/images/camera.png" alt="photo d'un appareil photo">
 		</div>
 	</div>

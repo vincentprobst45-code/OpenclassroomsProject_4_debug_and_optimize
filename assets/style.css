@@ -247,6 +247,17 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+.img-fluid{
+	display: block;
+	margin: auto;
+}
+.carousel-control-prev span{
+	color: #000;
+}
+.carousel-control-next span{
+	color: #000;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
