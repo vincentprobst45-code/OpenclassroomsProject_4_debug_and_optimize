@@ -165,7 +165,7 @@ function prevImage() {
     })
   } else {
       itemColumns.forEach(item => {
-        if(item.getElementsByTagName("img").dataset.galleryTag === activeTag)
+        if(item.querySelector(".gallery-item").dataset.galleryTag === activeTag)
         {
           imagesCollection.push(item.firstChild)
         }
@@ -229,7 +229,7 @@ function prevImage() {
     })
   } else {
       itemColumns.forEach(item => {
-        if(item.getElementsByTagName("img").dataset.galleryTag === activeTag)
+        if(item.querySelector(".gallery-item").dataset.galleryTag === activeTag)
         {
           imagesCollection.push(item.firstChild)
         }
